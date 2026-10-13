@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-hidden="true" focusable="false">
+  <title>Portrait placeholder</title>
+  <defs>
+    <linearGradient id="pt-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#333c50"/>
+      <stop offset="0.55" stop-color="#232a39"/>
+      <stop offset="1" stop-color="#141922"/>
+    </linearGradient>
+    <linearGradient id="pt-fig" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#e8eefb" stop-opacity="0.94"/>
+      <stop offset="0.55" stop-color="#b9c6de" stop-opacity="0.80"/>
+      <stop offset="1" stop-color="#8d9cb8" stop-opacity="0.60"/>
+    </linearGradient>
+    <radialGradient id="pt-glow" cx="0.5" cy="0.24" r="0.78">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.20"/>
+      <stop offset="0.6" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pt-sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.13"/>
+      <stop offset="0.42" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="pt-clip">
+      <rect x="0" y="0" width="120" height="120" rx="24" ry="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#pt-clip)">
+    <rect x="0" y="0" width="120" height="120" fill="url(#pt-bg)"/>
+    <rect x="0" y="0" width="120" height="120" fill="url(#pt-glow)"/>
+
+    <!-- head + shoulders silhouette -->
+    <g fill="url(#pt-fig)">
+      <circle cx="60" cy="48.5" r="20.5"/>
+      <path d="M12.5 120c0-24.4 21.3-39.5 47.5-39.5S107.5 95.6 107.5 120z"/>
+    </g>
+
+    <!-- shoulder shading for depth -->
+    <path d="M60 80.5c-26.2 0-47.5 15.1-47.5 39.5h95c0-24.4-21.3-39.5-47.5-39.5z"
+          fill="#0d1119" opacity="0.18"/>
+
+    <rect x="0" y="0" width="120" height="120" fill="url(#pt-sheen)"/>
+
+    <!-- hairline ring, keeps the card crisp at 48px -->
+    <rect x="0.75" y="0.75" width="118.5" height="118.5" rx="23.4" ry="23.4"
+          fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="1.5"/>
+  </g>
+</svg>

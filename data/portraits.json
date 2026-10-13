@@ -1,0 +1,1959 @@
+{
+  "schema": "cwvwwf-portraits/1",
+  "generated": "2026-10-13",
+  "identity_source": "data/roster-manifest.json",
+  "scope": "Wave 1 (staff-first): all manager and announcer identities. Wrestler waves follow.",
+  "policy": {
+    "accepted_licenses": [
+      "CC0",
+      "Public domain",
+      "CC BY 1.0",
+      "CC BY 2.0",
+      "CC BY 2.5",
+      "CC BY 3.0",
+      "CC BY 4.0",
+      "CC BY-SA 1.0",
+      "CC BY-SA 2.0",
+      "CC BY-SA 2.5",
+      "CC BY-SA 3.0",
+      "CC BY-SA 4.0"
+    ],
+    "rejected_licenses": [
+      "CC BY-NC",
+      "CC BY-NC-SA",
+      "CC BY-NC-ND",
+      "CC BY-ND",
+      "GFDL-only",
+      "fair use",
+      "non-free",
+      "unverified"
+    ],
+    "distribution_assumption": "commercial-safe",
+    "era_policy": "era-appropriate-first; career-era accepted; modern retained but flagged",
+    "sizes": {
+      "thumb": 48,
+      "small": 96,
+      "medium": 192,
+      "large": 384
+    },
+    "budgets_kb": {
+      "thumb": 8,
+      "small": 16,
+      "medium": 40,
+      "large": 90
+    },
+    "require_for_cleared": [
+      "page_url",
+      "file_url",
+      "license",
+      "author_or_public_domain"
+    ]
+  },
+  "stats": {
+    "staff_rows": 50,
+    "cleared": 28,
+    "absent": 22,
+    "by_role": {
+      "manager": 15,
+      "announcer": 35
+    },
+    "era_breakdown": {
+      "boundary": 3,
+      "sim-window": 1,
+      "modern": 14,
+      "career-era": 8,
+      "unverified-era": 2,
+      "none": 22
+    }
+  },
+  "portraits": [
+    {
+      "id": "bill-alfonso",
+      "identity_class": "wrestler_roster",
+      "display_name": "Bill Alfonso",
+      "role": "manager",
+      "company_context": "ECW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:BillAlfonso.jpg",
+        "file_url": null,
+        "author": "Adam Etheridge",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution_required": true,
+        "share_alike": true,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2006-12",
+        "era_match": "boundary",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY-SA 3.0\", AttributionRequired=true, Attribution=\"The Doppelganger at English Wikipedia\"; shot at a WEW event",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence.",
+          "dual-licence: GFDL + CC BY-SA 3.0 (use CC only)"
+        ],
+        "notes": "Shot 2006 - just outside the sim window. Flagged for the era decision, not rejected."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "harvey-wippleman",
+      "identity_class": "wrestler_roster",
+      "display_name": "Harvey Wippleman",
+      "role": "manager",
+      "company_context": "WWF",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Harvey_Wippleman_in_1994.jpg",
+        "file_url": null,
+        "author": "GaryColemanFan",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution_required": true,
+        "share_alike": true,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "1994",
+        "era_match": "sim-window",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY-SA 3.0\", AttributionRequired=true, Attribution=\"GaryColemanFan at English Wikipedia\"; shot at a 1994 WWF event",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence.",
+          "dual-licence: GFDL + CC BY-SA 3.0 (use CC only)"
+        ],
+        "notes": "GFDL also present as a redundant migration licence. CC BY-SA 3.0 governs; GFDL-only use is never relied on."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "jim-cornette",
+      "identity_class": "wrestler_roster",
+      "display_name": "Jim Cornette",
+      "role": "manager",
+      "company_context": "WWF",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:JimCornette2015Cropped.jpg",
+        "file_url": null,
+        "author": "Mike Kalasnik",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution_required": true,
+        "share_alike": true,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2015-06-13",
+        "era_match": "modern",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY-SA 2.0\", AttributionRequired=true",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": null
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "jimmy-hart",
+      "identity_class": "wrestler_roster",
+      "display_name": "Jimmy Hart",
+      "role": "manager",
+      "company_context": "WCW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Jimmy_Hart_GalaxyCon_Nashville_052026-3.jpg",
+        "file_url": null,
+        "author": "John Manard",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution_required": true,
+        "share_alike": true,
+        "restrictions": "personality",
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2026-05-31",
+        "era_match": "modern",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY-SA 4.0\", AttributionRequired=true, Restrictions=\"personality\"",
+        "risks": [
+          "Commons flags personality rights on this file: the licence clears copyright only, not likeness. Neutral crop, no promotion marks, no endorsement implied, takedown path documented."
+        ],
+        "notes": null
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "missy-hyatt",
+      "identity_class": "wrestler_roster",
+      "display_name": "Missy Hyatt",
+      "role": "manager",
+      "company_context": "WCW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Missy_Hyatt,_1988.png",
+        "file_url": null,
+        "author": "Len McAlister",
+        "license": "Public domain",
+        "license_url": null,
+        "attribution_required": false,
+        "share_alike": false,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "1988",
+        "era_match": "career-era",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"Public domain\", AttributionRequired=false; DateTimeOriginal \"Winter 1988\"",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": "Rare: era-appropriate AND public domain."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "mr-fuji",
+      "identity_class": "wrestler_roster",
+      "display_name": "Mr. Fuji",
+      "role": "manager",
+      "company_context": "WWF",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Mr_Fuji_(cropped).jpg",
+        "file_url": null,
+        "author": "DianesDigitals",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution_required": true,
+        "share_alike": true,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2012-01-15",
+        "era_match": "modern",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY-SA 2.0\", AttributionRequired=true",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": null
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "paul-bearer",
+      "identity_class": "wrestler_roster",
+      "display_name": "Paul Bearer",
+      "role": "manager",
+      "company_context": "WWF",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:PaulBearerCage.jpg",
+        "file_url": null,
+        "author": "shstrng",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "attribution_required": true,
+        "share_alike": false,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": null,
+        "era_match": "unverified-era",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY 2.0\", AttributionRequired=true; no DateTimeOriginal in metadata",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": "Licence verified; capture date absent from the file metadata, so era classification is unresolved."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "paul-e-dangerously",
+      "identity_class": "wrestler_roster",
+      "display_name": "Paul E. Dangerously",
+      "role": "manager",
+      "company_context": "ECW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Paul_Heyman_August_2024_(cropped).jpg",
+        "file_url": null,
+        "author": "Diego Serrano",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "attribution_required": true,
+        "share_alike": false,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2024-08-17",
+        "era_match": "modern",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY 2.0\", AttributionRequired=true",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": "In-game id is \"paul-e-dangerously\" (ECW-era gimmick); subject is Paul Heyman."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "robert-parker",
+      "identity_class": "wrestler_roster",
+      "display_name": "Colonel Robert Parker",
+      "role": "manager",
+      "company_context": "WCW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Robert_Fuller.jpg",
+        "file_url": null,
+        "author": "Unknown author",
+        "license": "Public domain",
+        "license_url": null,
+        "attribution_required": false,
+        "share_alike": false,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "1975",
+        "era_match": "career-era",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"Public domain\"; DateTimeOriginal 1975",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": "In-game id is \"robert-parker\" (Colonel Robert Parker); the performer is Robert Fuller."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "sherri-martel",
+      "identity_class": "wrestler_roster",
+      "display_name": "Sensational Sherri",
+      "role": "manager",
+      "company_context": "WCW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "English Wikipedia article exists but carries no lead image; no free portrait located."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "slick",
+      "identity_class": "wrestler_roster",
+      "display_name": "Slick",
+      "role": "manager",
+      "company_context": "WWF",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:SlickWWFCropped.jpg",
+        "file_url": null,
+        "author": "John McKeon",
+        "license": "CC BY 1.0",
+        "license_url": "https://creativecommons.org/licenses/by/1.0/",
+        "attribution_required": true,
+        "share_alike": false,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "1989-03-07",
+        "era_match": "career-era",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY 1.0\", AttributionRequired=true; same 7 Mar 1989 El Paso shoot as Bobby Heenan",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": "CC BY 1.0 - the least restrictive CC attribution licence; no share-alike obligation."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "sonny-onoo",
+      "identity_class": "wrestler_roster",
+      "display_name": "Sonny Onoo",
+      "role": "manager",
+      "company_context": "WCW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Sony_Onoo_2018.jpg",
+        "file_url": null,
+        "author": "Mike Kalasnik",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution_required": true,
+        "share_alike": true,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2017-04-22",
+        "era_match": "modern",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY-SA 2.0\", AttributionRequired=true",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": null
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "sunny",
+      "identity_class": "wrestler_roster",
+      "display_name": "Sunny",
+      "role": "manager",
+      "company_context": "WWF",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "English Wikipedia article exists but carries no lead image; Commons has no portrait under this name."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "ted-dibiase",
+      "identity_class": "wrestler_roster",
+      "display_name": "Ted DiBiase",
+      "role": "manager",
+      "company_context": "WWF",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Ted_DiBiase_GalaxyCon_Nashville_052026-4.jpg",
+        "file_url": null,
+        "author": "John Manard",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution_required": true,
+        "share_alike": true,
+        "restrictions": "personality",
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2026-05-31",
+        "era_match": "modern",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY-SA 4.0\", AttributionRequired=true, Restrictions=\"personality\"",
+        "risks": [
+          "Commons flags personality rights on this file: the licence clears copyright only, not likeness. Neutral crop, no promotion marks, no endorsement implied, takedown path documented."
+        ],
+        "notes": null
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "woman",
+      "identity_class": "wrestler_roster",
+      "display_name": "Woman",
+      "role": "manager",
+      "company_context": "ECW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Nancy_Benoit_(Fallen_Angel)_1984_(cropped).png",
+        "file_url": null,
+        "author": "Unknown author",
+        "license": "Public domain",
+        "license_url": null,
+        "attribution_required": false,
+        "share_alike": false,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "1985-01",
+        "era_match": "career-era",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"Public domain\", AttributionRequired=false",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": "In-game id is \"woman\"; display name in the source data is \"Woman\". Subject: Nancy Benoit (Fallen Angel), 1984-85."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "antonio-inoki-ann",
+      "identity_class": "announcer",
+      "display_name": "Antonio Inoki",
+      "role": "announcer",
+      "company_context": "NJPW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": {
+        "thumb": "assets/portraits/_testplate/antonio-inoki-ann-48.webp",
+        "small": "assets/portraits/_testplate/antonio-inoki-ann-96.webp",
+        "medium": "assets/portraits/_testplate/antonio-inoki-ann-192.webp",
+        "large": "assets/portraits/_testplate/antonio-inoki-ann-384.webp"
+      },
+      "preview_note": "Local test plate, not a photograph. Proves the image pipeline before licensed import; replaced by tools/fetch-portraits.mjs.",
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Inoki,_circa_1983_(cropped).jpg",
+        "file_url": null,
+        "author": "Unknown photographer",
+        "license": "Public domain",
+        "license_url": null,
+        "attribution_required": false,
+        "share_alike": false,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "1983-04",
+        "era_match": "career-era",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"Public domain\"; category \"PD US no notice 1989\"; source \"Wrestling Main Event, April 1983\"",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": "Magazine scan. Unknown author - attribution not required, so no orphaned credit."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "arturo-rivera",
+      "identity_class": "announcer",
+      "display_name": "Arturo Rivera",
+      "role": "announcer",
+      "company_context": "CMLL",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "BLOCKED - name collision. The canonical image for this name on Commons is a 2017 self-portrait by the Mexican painter Arturo Rivera (CC BY-SA 4.0), a different person. Never auto-match this name."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "arturo-rivera-aaa",
+      "identity_class": "announcer",
+      "display_name": "Arturo Rivera",
+      "role": "announcer",
+      "company_context": "AAA",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "BLOCKED - same name collision as arturo-rivera."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "bob-caudle",
+      "identity_class": "announcer",
+      "display_name": "Bob Caudle",
+      "role": "announcer",
+      "company_context": "CUSTOM,NWA",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "Article exists, no lead image; no free portrait located."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "bobby-heenan",
+      "identity_class": "announcer",
+      "display_name": "Bobby Heenan",
+      "role": "announcer",
+      "company_context": "WCW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": {
+        "thumb": "assets/portraits/_testplate/bobby-heenan-48.webp",
+        "small": "assets/portraits/_testplate/bobby-heenan-96.webp",
+        "medium": "assets/portraits/_testplate/bobby-heenan-192.webp",
+        "large": "assets/portraits/_testplate/bobby-heenan-384.webp"
+      },
+      "preview_note": "Local test plate, not a photograph. Proves the image pipeline before licensed import; replaced by tools/fetch-portraits.mjs.",
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Bobby_Heenan.jpg_(cropped2).jpg",
+        "file_url": null,
+        "author": "John McKeon",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution_required": true,
+        "share_alike": true,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "1989-03-07",
+        "era_match": "career-era",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY-SA 2.0\", AttributionRequired=true, LicenseUrl present; shot 7 Mar 1989, El Paso Convention Center (WWF Superstars taping)",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": "Fan photo, already an acknowledged crop on Commons."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "carlos-berrios",
+      "identity_class": "announcer",
+      "display_name": "Carlos Berríos",
+      "role": "announcer",
+      "company_context": "WWC",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "No encyclopaedia article; no free portrait located. WWC Spanish-language commentary."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "dave-brown",
+      "identity_class": "announcer",
+      "display_name": "Dave Brown",
+      "role": "announcer",
+      "company_context": "USWA",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "No encyclopaedia article; no free portrait located."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "dave-pugh",
+      "identity_class": "announcer",
+      "display_name": "Dave Pugh",
+      "role": "announcer",
+      "company_context": "ASW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "No encyclopaedia article; no free portrait located."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "dr-alfonso-morales",
+      "identity_class": "announcer",
+      "display_name": "Dr. Alfonso Morales",
+      "role": "announcer",
+      "company_context": "AAA",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "No encyclopaedia article; no free portrait located. AAA commentary."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "dusty-rhodes",
+      "identity_class": "announcer",
+      "display_name": "Dusty Rhodes",
+      "role": "announcer",
+      "company_context": "WCW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": {
+        "thumb": "assets/portraits/_testplate/dusty-rhodes-48.webp",
+        "small": "assets/portraits/_testplate/dusty-rhodes-96.webp",
+        "medium": "assets/portraits/_testplate/dusty-rhodes-192.webp",
+        "large": "assets/portraits/_testplate/dusty-rhodes-384.webp"
+      },
+      "preview_note": "Local test plate, not a photograph. Proves the image pipeline before licensed import; replaced by tools/fetch-portraits.mjs.",
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Dusty_Rhodes_as_NWA_Champion,_circa_1979_to_1981.jpg",
+        "file_url": null,
+        "author": "Bill Apter",
+        "license": "Public domain",
+        "license_url": null,
+        "attribution_required": false,
+        "share_alike": false,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "1979-1981",
+        "era_match": "career-era",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"Public domain\", Copyrighted=False; category \"PD US no notice 1989\" (magazine scan, no copyright notice)",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": "Scanned from a wrestling magazine; PD via missing copyright notice. Highest-value class: era-correct and PD."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "gary-michael-cappetta",
+      "identity_class": "announcer",
+      "display_name": "Gary Michael Cappetta",
+      "role": "announcer",
+      "company_context": "NWA",
+      "aliases": [],
+      "shared_with_ids": [
+        "gary-michael-cappetta-awf"
+      ],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Gary_Michael_Cappetta.jpg",
+        "file_url": null,
+        "author": "Mike Kalasnik",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution_required": true,
+        "share_alike": true,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2014-11-27",
+        "era_match": "modern",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY-SA 2.0\", AttributionRequired=true; shot at Showcase of Champions, Winston-Salem NC",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": "One photo serves both announcer rows (see shared_with)."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "gary-michael-cappetta-awf",
+      "identity_class": "announcer",
+      "display_name": "Gary Michael Cappetta",
+      "role": "announcer",
+      "company_context": "AWF",
+      "aliases": [],
+      "shared_with_ids": [],
+      "shares_with_id": "gary-michael-cappetta",
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Gary_Michael_Cappetta.jpg",
+        "file_url": null,
+        "author": "Mike Kalasnik",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution_required": true,
+        "share_alike": true,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2014-11-27",
+        "era_match": "modern",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "Shares the cleared photo of gary-michael-cappetta: imageinfo: LicenseShortName=\"CC BY-SA 2.0\", AttributionRequired=true; shot at Showcase of Champions, Winston-Salem NC",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": "Reuses the gary-michael-cappetta photo - same performer, two promotion rows in the source data. Ids are not merged."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "giant-baba-ann",
+      "identity_class": "announcer",
+      "display_name": "Giant Baba",
+      "role": "announcer",
+      "company_context": "AJPW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "BLOCKED - the lead image on the name's article is an unrelated 1938 Sikeston, MO wrestling photograph. Requires a targeted search, not a name lookup."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "haruka-eigen",
+      "identity_class": "announcer",
+      "display_name": "Haruka Eigen",
+      "role": "announcer",
+      "company_context": "FMW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "Article exists, no lead image; no free portrait located."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "haruo-murata",
+      "identity_class": "announcer",
+      "display_name": "Haruo Murata",
+      "role": "announcer",
+      "company_context": "AJW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "No encyclopaedia article; no free portrait located. AJW commentary."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "hugo-savinovich",
+      "identity_class": "announcer",
+      "display_name": "Hugo Savinovich",
+      "role": "announcer",
+      "company_context": "WWC",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Hugo_Savinovitch_(cropped).png",
+        "file_url": null,
+        "author": "Unknown author",
+        "license": "Public domain",
+        "license_url": null,
+        "attribution_required": false,
+        "share_alike": false,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "1984-01",
+        "era_match": "career-era",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"Public domain\"; source \"Wrestling's MAIN EVENT magazine: 1984-01\"",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": "WWC North American Tag Champions era."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "jerry-lawler",
+      "identity_class": "announcer",
+      "display_name": "Jerry Lawler",
+      "role": "announcer",
+      "company_context": "WWF",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Jerry_Lawler_GalaxyCon_Nashville_052026-4.jpg",
+        "file_url": null,
+        "author": "John Manard",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution_required": true,
+        "share_alike": true,
+        "restrictions": "personality",
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2026-05-31",
+        "era_match": "modern",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY-SA 4.0\", AttributionRequired=true, Restrictions=\"personality\"",
+        "risks": [
+          "Commons flags personality rights on this file: the licence clears copyright only, not likeness. Neutral crop, no promotion marks, no endorsement implied, takedown path documented."
+        ],
+        "notes": "One photo serves the wrestler row and the announcer row (same stable id, two identity classes)."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "jim-ross",
+      "identity_class": "announcer",
+      "display_name": "Jim Ross",
+      "role": "announcer",
+      "company_context": "WWF",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Jim_Ross_Photo_Op_GalaxyCon_Richmond_2025.jpg",
+        "file_url": null,
+        "author": "Super Festivals",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "attribution_required": true,
+        "share_alike": false,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2025-03-29",
+        "era_match": "modern",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY 2.0\", AttributionRequired=true",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": null
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "joey-styles",
+      "identity_class": "announcer",
+      "display_name": "Joey Styles",
+      "role": "announcer",
+      "company_context": "ECW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Joey_Styles_n_friend.jpg",
+        "file_url": null,
+        "author": "Mooowl (English Wikipedia)",
+        "license": "Public domain",
+        "license_url": null,
+        "attribution_required": false,
+        "share_alike": false,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2007",
+        "era_match": "boundary",
+        "crop": null,
+        "modified": false,
+        "requires_crop": true
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"Public domain\", AttributionRequired=false; original upload 16 June 2007",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence.",
+          "needs-crop: group photo, subject must be isolated"
+        ],
+        "notes": "Self-released to PD by the uploader. Group photo - requires a crop to the subject."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "katsuya-kobayashi",
+      "identity_class": "announcer",
+      "display_name": "Katsuya Kobayashi",
+      "role": "announcer",
+      "company_context": "AJW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "No encyclopaedia article; no free portrait located. AJW commentary."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "kenji-ota",
+      "identity_class": "announcer",
+      "display_name": "Kenji Ota",
+      "role": "announcer",
+      "company_context": "FMW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "No encyclopaedia article; no free portrait located. FMW commentary."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "kent-walton",
+      "identity_class": "announcer",
+      "display_name": "Kent Walton",
+      "role": "announcer",
+      "company_context": "ASW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "Article exists, no lead image. Retired from ITV commentary in 1988; no free portrait located."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "kevin-kelly",
+      "identity_class": "announcer",
+      "display_name": "Kevin Kelly",
+      "role": "announcer",
+      "company_context": null,
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Announcer_Kevin_Kelly.jpg",
+        "file_url": null,
+        "author": "Steve Wright Jr.",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "attribution_required": true,
+        "share_alike": false,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2011-08-13",
+        "era_match": "modern",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY 2.0\", AttributionRequired=true; shot at a Ring of Honor show",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": null
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "lance-russell",
+      "identity_class": "announcer",
+      "display_name": "Lance Russell",
+      "role": "announcer",
+      "company_context": "CUSTOM,USWA",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "Article exists, no lead image; no free portrait located."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "larry-zbyszko",
+      "identity_class": "announcer",
+      "display_name": "Larry Zbyszko",
+      "role": "announcer",
+      "company_context": null,
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Larry_Zbyszko_April_2016.jpg",
+        "file_url": null,
+        "author": "Miguel Discart",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution_required": true,
+        "share_alike": true,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2016-04-01",
+        "era_match": "modern",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY-SA 2.0\", AttributionRequired=true",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": null
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "les-thatcher",
+      "identity_class": "announcer",
+      "display_name": "Les Thatcher",
+      "role": "announcer",
+      "company_context": "SMW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Les_Thatcher_July_2014.jpg",
+        "file_url": null,
+        "author": "Mike Kalasnik",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution_required": true,
+        "share_alike": true,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2014-07-31",
+        "era_match": "modern",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY-SA 2.0\", AttributionRequired=true",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": null
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "michael-cole",
+      "identity_class": "announcer",
+      "display_name": "Michael Cole",
+      "role": "announcer",
+      "company_context": null,
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "English Wikipedia article exists but carries no lead image at census time."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "mike-tenay",
+      "identity_class": "announcer",
+      "display_name": "Mike Tenay",
+      "role": "announcer",
+      "company_context": "AWF",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:TenayLockdown.jpg",
+        "file_url": null,
+        "author": null,
+        "license": "Public domain",
+        "license_url": null,
+        "attribution_required": false,
+        "share_alike": false,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": null,
+        "era_match": "unverified-era",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"Public domain\", AttributionRequired=false; no author or date in metadata",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence.",
+          "pd-claim-unattributed: verify the underlying PD rationale before import"
+        ],
+        "notes": "PD claim accepted from the file page, but no author/date to corroborate it. Flagged for a second look."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "peer-gynter",
+      "identity_class": "announcer",
+      "display_name": "Peer Gynter",
+      "role": "announcer",
+      "company_context": "CWA",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "No encyclopaedia article; no free portrait located. CWA commentary."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "shinpei-nogami",
+      "identity_class": "announcer",
+      "display_name": "Shinpei Nogami",
+      "role": "announcer",
+      "company_context": "NJPW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "No encyclopaedia article; no free portrait located. NJPW commentary."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "tazz",
+      "identity_class": "announcer",
+      "display_name": "Tazz",
+      "role": "announcer",
+      "company_context": null,
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "English Wikipedia article exists but carries no lead image at census time."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "tirantes",
+      "identity_class": "announcer",
+      "display_name": "Tirantes",
+      "role": "announcer",
+      "company_context": "CMLL",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "No encyclopaedia article; no free portrait located. CMLL announcer slot (historically a referee)."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "tony-schiavone",
+      "identity_class": "announcer",
+      "display_name": "Tony Schiavone",
+      "role": "announcer",
+      "company_context": "WCW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Tony_Schiavone,_October_2019_(cropped).jpg",
+        "file_url": null,
+        "author": "grenwail",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "attribution_required": true,
+        "share_alike": false,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2019-10-09",
+        "era_match": "modern",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"CC BY 2.0\", AttributionRequired=true",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": "The canonical file for this subject. No era-appropriate alternative on Commons at census time."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    },
+    {
+      "id": "tsuneharu-fujii",
+      "identity_class": "announcer",
+      "display_name": "Tsuneharu Fujii",
+      "role": "announcer",
+      "company_context": "AJPW",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "absent",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": null,
+      "photo": null,
+      "verification": {
+        "status": "absent",
+        "checked_on": "2026-10-13",
+        "license_evidence": null,
+        "risks": [],
+        "notes": "No encyclopaedia article; no free portrait located. AJPW commentary."
+      },
+      "approved_for": null,
+      "fallback_reason": "no-cleared-photo"
+    },
+    {
+      "id": "vince-mcmahon",
+      "identity_class": "announcer",
+      "display_name": "Vince McMahon",
+      "role": "announcer",
+      "company_context": "WWF",
+      "aliases": [],
+      "shared_with_ids": [],
+      "status": "cleared",
+      "files": null,
+      "preview_files": null,
+      "preview_note": null,
+      "source": {
+        "page_url": "https://commons.wikimedia.org/wiki/File:Vince_McMahon_2.jpg",
+        "file_url": null,
+        "author": "Airman 1st Class Nicholas Pilch (USAF)",
+        "license": "Public domain",
+        "license_url": null,
+        "attribution_required": false,
+        "share_alike": false,
+        "restrictions": null,
+        "retrieved": "2026-10-13",
+        "original_sha256": null,
+        "sha256_status": "pending-fetch"
+      },
+      "photo": {
+        "date": "2006-12-05",
+        "era_match": "boundary",
+        "crop": null,
+        "modified": false,
+        "requires_crop": false
+      },
+      "verification": {
+        "status": "cleared",
+        "checked_on": "2026-10-13",
+        "license_evidence": "imageinfo: LicenseShortName=\"Public domain\", AttributionRequired=false - US Air Force photograph",
+        "risks": [
+          "Subject publicity/likeness rights are not cleared by the photographer's licence."
+        ],
+        "notes": "US government work: PD. Courtesy credit retained voluntarily even though not required."
+      },
+      "approved_for": {
+        "commercial": true,
+        "modification": true
+      },
+      "fallback_reason": null
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "bill-alfonso",
+      "question": "dual-licence: GFDL + CC BY-SA 3.0 (use CC only)",
+      "since": "2026-10-13"
+    },
+    {
+      "id": "harvey-wippleman",
+      "question": "dual-licence: GFDL + CC BY-SA 3.0 (use CC only)",
+      "since": "2026-10-13"
+    },
+    {
+      "id": "joey-styles",
+      "question": "needs-crop: group photo, subject must be isolated",
+      "since": "2026-10-13"
+    },
+    {
+      "id": "mike-tenay",
+      "question": "pd-claim-unattributed: verify the underlying PD rationale before import",
+      "since": "2026-10-13"
+    }
+  ]
+}
