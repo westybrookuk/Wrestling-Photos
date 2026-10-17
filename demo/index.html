@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portrait system — WCW vs WWF Arena (M1 demo)</title>
+<link rel="stylesheet" href="../css/portrait.css">
+<link rel="stylesheet" href="demo.css">
+</head>
+<body>
+<header class="bar">
+  <div class="bar__brand">
+    <strong>WCW vs WWF Arena</strong>
+    <span>Portrait system — milestone M1</span>
+  </div>
+  <div class="bar__stats" id="stats"></div>
+</header>
+
+<main>
+  <section class="panel">
+    <h2>1 · Roster list <span class="hint">small (96px) — lazy loaded, never full resolution</span></h2>
+    <div class="legend">
+      <span class="pill pill--ok">photo cleared</span>
+      <span class="pill pill--preview">test plate</span>
+      <span class="pill pill--absent">fallback</span>
+      <span class="pill pill--generated">generated worker</span>
+    </div>
+    <div class="roster" id="roster"></div>
+  </section>
+
+  <section class="panel two-up">
+    <div>
+      <h2>2 · Profile <span class="hint">medium + large hero</span></h2>
+      <div id="profile"></div>
+    </div>
+    <div>
+      <h2>3 · Match booking <span class="hint">thumb (48px), both corners</span></h2>
+      <div class="matchcard" id="matchcard"></div>
+      <div class="controls">
+        <button id="breakImg" type="button">Simulate a missing image file</button>
+        <button id="pickRandom" type="button">Book another card</button>
+      </div>
+      <p class="note" id="breakNote" hidden>
+        The <code>&lt;img&gt;</code> was pointed at a file that does not exist. It failed once,
+        retired itself, and the fallback underneath is still showing. No broken-image icon,
+        no layout shift, no retry loop.
+      </p>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Credits <span class="hint">generated from the manifest — every used photo is attributed</span></h2>
+    <ul class="credits" id="credits"></ul>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>Presentation only: no rng, no simulation state, nothing added to a save file.</span>
+</footer>
+
+<script type="module" src="demo.js"></script>
+</body>
+</html>

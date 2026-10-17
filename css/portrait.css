@@ -1,0 +1,145 @@
+/* ==========================================================================
+   Portrait component - WCW vs WWF Arena
+   Presentation only. No layout side effects outside .pt, no JS dependency.
+
+   The fallback is a first-class look, not an error state: a tinted silhouette
+   plate plus a monogram. It is the base layer of every portrait, so a photo can
+   appear above it or fail to appear without the cell ever changing size.
+   ========================================================================== */
+
+.pt {
+  --pt-hue: 214;
+  --pt-size: 96px;
+  --pt-radius: 22%;
+
+  position: relative;
+  display: inline-block;
+  flex: 0 0 auto;
+  inline-size: var(--pt-size);
+  block-size: var(--pt-size);
+  border-radius: var(--pt-radius);
+  overflow: hidden;
+  vertical-align: middle;
+  background: #232a39;
+  isolation: isolate;
+  user-select: none;
+}
+
+/* size steps ------------------------------------------------------------- */
+.pt--thumb  { --pt-size: 48px;  --pt-radius: 24%; }
+.pt--small  { --pt-size: 96px;  --pt-radius: 22%; }
+.pt--medium { --pt-size: 192px; --pt-radius: 18%; }
+.pt--large  { --pt-size: 384px; --pt-radius: 16%; }
+
+/* role frames ------------------------------------------------------------ */
+.pt--frame-wrestler { --pt-radius: 22%; }
+.pt--frame-staff    { --pt-radius: 50%; }
+.pt--frame-coach    { --pt-radius: 22%; }
+
+.pt--frame-staff::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 2px rgb(255 255 255 / 0.14);
+  pointer-events: none;
+  z-index: 3;
+}
+
+/* ------------------------------------------------------------------ fallback */
+.pt__fb {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: var(--pt-plate, url("../assets/portraits/fallback.svg"));
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items: center;
+}
+
+/* Per-identity tint: keeps one static SVG and still gives every wrestler a
+   recognisably different card. Hue comes from a hash of the id, never from rng(). */
+.pt__fb::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: hsl(var(--pt-hue) 64% 50%);
+  mix-blend-mode: overlay;
+  opacity: 0.42;
+}
+
+.pt__mono {
+  position: relative;
+  z-index: 1;
+  font: 700 clamp(11px, calc(var(--pt-size) * 0.30), 96px) / 1
+    ui-sans-serif, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.02em;
+  color: rgb(255 255 255 / 0.94);
+  text-shadow: 0 1px 2px rgb(0 0 0 / 0.45), 0 0 12px rgb(0 0 0 / 0.25);
+  translate: 0 -6%;
+}
+
+.pt--thumb  .pt__mono { letter-spacing: 0; }
+
+/* ------------------------------------------------------------------- photo */
+.pt__img {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0;
+  transition: opacity 200ms ease-out;
+}
+
+.pt__img--in { opacity: 1; }
+
+/* ------------------------------------------------------------------- states */
+/* Deliberately quiet. "absent" and "generated" are normal, finished looks -
+   never an error, never a red outline, never a placeholder glyph. */
+.pt--absent  .pt__fb::before { opacity: 0.30; }
+.pt--generated .pt__fb::before { opacity: 0.22; }
+.pt--generated .pt__mono { opacity: 0.88; }
+.pt--pending .pt__fb::before { opacity: 0.36; }
+.pt--preview .pt__fb::before { opacity: 0.42; }
+
+/* A preview/test plate is watermarked so it can never be mistaken for a
+   licensed photograph in a screenshot or a build. */
+.pt--preview::after {
+  content: "TEST";
+  position: absolute;
+  z-index: 4;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 2px 0 3px;
+  font: 700 9px/1 ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.14em;
+  text-align: center;
+  color: rgb(255 255 255 / 0.82);
+  background: rgb(0 0 0 / 0.42);
+}
+
+/* ------------------------------------------------------------------- a11y */
+@media (prefers-reduced-motion: reduce) {
+  .pt__img { transition: none; }
+}
+
+@media (forced-colors: active) {
+  .pt { border: 1px solid CanvasText; }
+  .pt__fb { forced-color-adjust: none; }
+}
+
+/* Dense list rows: portraits sit inline with text without disturbing rhythm. */
+.pt-row { display: flex; align-items: center; gap: 10px; }
+.pt-row__name { min-width: 0; }
+.pt-row__name b { display: block; }
+.pt-row__name span { opacity: 0.62; font-size: 0.86em; }
+
+/* ------------------------------------------------------------------- failed */
+/* A mapped image that fails to load looks exactly like an identity with no
+   photo: quiet, finished, never an error. */
+.pt--missing .pt__fb::before { opacity: 0.30; }

@@ -1,0 +1,11 @@
+{
+  "name": "wcw-vs-wwf-portraits",
+  "private": true,
+  "type": "module",
+  "description": "Portrait system for WCW vs WWF Arena: identity-keyed manifest, resolver, fallback, tooling and tests. No version field on purpose - this package carries no release identity and must never become a second source of truth for the game's package metadata.",
+  "scripts": {
+    "check": "node tools/portraits-check.mjs",
+    "build": "node tools/build-portraits.mjs",
+    "test": "node test/portraits.js"
+  }
+}
